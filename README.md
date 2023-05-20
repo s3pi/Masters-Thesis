@@ -1,8 +1,8 @@
 ### Medical Imaging techniques for Transformation and Inference using Deep Learning
 Medical imaging has significantly progressed to yeild high quality visual representations of the organs inside the body and is of critical value to health care. Multiple imaging modalities such as MRI, X-ray, CT and Ultrasound exist to serve di↵erent diagnostic pur- poses. Nevertheless, in addition to the actual energy signal, post-processing approaches exists which are intended to assist the diagnosis by performing simple improvements like enhancing the sharpness and reducing image noise, providing intelligent suggestions by segmenting the artefacts, classifying the diseases, making meaningful and critical infer- ences and enabling mass screening. These post-processing tasks can be improved and yield benefits such as decreased acquisition time, cost, need for expert training, increased com- fort, and decreased radiation hazard. In this thesis, we have explored deep learning-based techniques for some advanced post-processing tasks like synthesise MR images, automate X-ray report generation, and denoise the CT Scan.
-# Synthesising inter modality images of MRI:
+#### Synthesising inter modality images of MRI:
 MRI imaging can be utilised to interpret the distinct nature of tissues, characterised by two relaxation times, namely T1 and T2, producing contrasting yet related information. In order to reduce the acquisition time and thereby alleviate comfort and reduce the per-person cost, we propose an Encoder-Decoder- based deep learning architecture to reconstruct T2 weighted image from T1 weighted image.
-# Automating X-ray report generation: 
+#### Automating X-ray report generation: 
 We propose an attention-based deep neural network to generate X-ray report automatically. X-rays can be used for mass screening in several critical/pandemic scenarios as is fast and cost e↵ective.
-# Denoising low dose CT Scan: 
+#### Denoising low dose CT Scan: 
 Computed Tomography (CT) scanners induce X-ray radiation through the body to capture images of the bones and tissues. A higher radiation dosage leads to clearer images but have harmful e↵ects. We propose an architecture that computes visual attention across non-overlapping patches to denoise the low dose CT scans.
